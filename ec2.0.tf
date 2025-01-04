@@ -9,7 +9,7 @@ resource "aws_instance" "example" {
   instance_type = "t2.micro"             
 
   
-  key_name = "my-key-pair"
+ # key_name = "my-key-pair"
 
   
   vpc_security_group_ids = [aws_security_group.ec2_sg.id]
